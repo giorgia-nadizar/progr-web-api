@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+    autoGenerate="false">
+    <datastore-index kind="File" ancestor="true" source="auto">
+        <property name="consumer" direction="asc"/>
+        <property name="dataOraCaricamento" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="File" ancestor="true" source="auto">
+        <property name="dataOraCaricamento" direction="asc"/>
+    </datastore-index>
+
+    <datastore-index kind="File" ancestor="true" source="auto">
+        <property name="consumer" direction="asc"/>
+        <property name="dataOraVisualizzazione" direction="asc"/>
+        <property name="dataOraCaricamento" direction="desc"/>
+    </datastore-index>
+
+    <datastore-index kind="File" ancestor="true" source="auto">
+        <property name="consumer" direction="asc"/>
+        <property name="dataOraCaricamento" direction="desc"/>
+        <property name="ipVisualizzazione" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>
